@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SmartHome Web Server</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <h1 class="device">MY HOUSE'S DEVICE</h1>
+      <h3 class="device">LIGHT BULB</h3>
+      <div>
+        <button id="btnON_01", class="btnON1">ON</button>
+        <button id="btnOFF_01", class="btnOFF1">OFF</button>
+      </div>
+      <h3 class="device">LOCK DOOR</h3>
+      <div>
+        <button id="btnON_02", class="btnON2">OPEN</button>
+        <button id="btnOFF_02", class="btnOFF2">CLOSE</button>
+      </div>
+      <h3 class="device">FAN</h3>
+      <div>
+        <button id="btnON_03", class="btnON3">ON</button>
+        <button id="btnOFF_03", class="btnOFF3">OFF</button>
+      </div>
+      <h3 class="device">Temperature: <span id="temp">00</span></h3>
+      <h3 class="device">Humidity: <span id="hum">00</span></h3>
+      <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+      <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
